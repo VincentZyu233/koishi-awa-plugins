@@ -1,0 +1,39 @@
+{
+  "name": "koishi-plugin-exec-auth-rcon",
+  "description": "",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "bot",
+    "chatbot",
+    "koishi",
+    "plugin",
+    "spawn",
+    "exec",
+    "process",
+    "shell",
+    "command",
+    "terminal",
+    "common"
+  ],
+  "koishi": {
+    "description": {
+      "en": "Run shell commands with Koishi",
+      "zh": "使用 Koishi 运行终端命令"
+    }
+  },
+  "devDependencies": {
+    "@koishijs/plugin-help": "^2.4.3",
+    "@koishijs/plugin-mock": "^2.6.5",
+    "koishi": "^4.17.2"
+  },
+  "peerDependencies": {
+    "koishi": "^4.17.2"
+  }
+}
